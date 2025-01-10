@@ -1,0 +1,3 @@
+# VBScript Bug: Late Binding and Implicit Type Conversion
+This repository demonstrates a common issue in VBScript: unexpected behavior arising from late binding and implicit type conversion.  Late binding, while offering flexibility, can result in runtime errors that are difficult to trace during development.  Implicit type conversion can lead to comparisons and calculations producing unexpected results.
+The `bug.vbs` file contains the problematic code. The `bugSolution.vbs` demonstrates how to mitigate these issues by using explicit type checking and early binding where appropriate. 
